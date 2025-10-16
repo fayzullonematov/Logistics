@@ -13,6 +13,8 @@
         <div>
             <h1>Logistics</h1>
             <p>Nuriddinov Muhammadjon Mahmudjon o'g'li</p>
+            <p>Group: 22-25</p>
+
         </div>
         <nav>
             <a href="#about">About</a>
@@ -33,10 +35,16 @@
             <section id="about">
                 <h2>About the Major</h2>
                 <p>
-                    Logistics is the backbone of global trade and industry. It teaches students how to plan, organize,
-                    and control the movement of goods, services, and information from origin to destination.
-                    The program blends economics, business management, data analysis, and operations research to
-                    develop professionals who can optimize complex supply chains.
+                    Logistics is the part of supply chain management that deals with the efficient forward and reverse
+                    flow of goods, services, and related information from the point of origin to the point of
+                    consumption according to the needs of customers.[2][3] Logistics management is a component that
+                    holds the supply chain together.[3] The resources managed in logistics may include tangible goods
+                    such as materials, equipment, and supplies, as well as food and other edible items. Military
+                    logistics is concerned with maintaining army supply lines with food, armaments, ammunition, and
+                    spare parts, apart from the transportation of troops themselves. Meanwhile, civil logistics deals
+                    with acquiring, moving, and storing raw materials, semi-finished goods, and finished goods. For
+                    organisations that provide garbage collection, mail deliveries, public utilities, and after-sales
+                    services, logistical problems must be addressed.[2]
                 </p>
                 <p>
                     In university, students explore both the analytical and strategic dimensions of logistics,
@@ -48,14 +56,23 @@
             <section id="history">
                 <h2>History of Logistics</h2>
                 <p>
-                    The term “logistics” comes from the Greek word <em>logistikos</em>, meaning skilled in calculating.
-                    Its roots trace back to ancient military operations where organizing troops, weapons, and supplies
-                    was crucial for victory.
+                    The term “logistics” comes from the Greek word <em>logistikos</em>, meaning “skilled in
+                    calculating.”
+                    Its origins can be traced back to ancient military campaigns, where the efficient movement of
+                    troops, weapons, and supplies often determined victory or defeat.
+                    Commanders like Alexander the Great and Julius Caesar relied on precise planning and resource
+                    management long before the term itself was formalized.
+                    As empires expanded, logistics evolved into a science of coordination — ensuring that armies,
+                    merchants, and explorers could reach distant territories without exhausting their supplies.
                 </p>
                 <p>
-                    In the 20th century, logistics evolved beyond warfare into business and technology.
-                    With the rise of globalization, digitalization, and e-commerce, logistics became one of the
-                    most influential forces shaping how modern societies function.
+                    During the Industrial Revolution, logistics entered a new era.
+                    Railroads, steamships, and later automobiles transformed the speed and scale of distribution,
+                    linking factories to global markets.
+                    By the 20th century, logistics had expanded far beyond the battlefield into the realms of business,
+                    production, and international trade.
+                    The emergence of containerization in the 1950s revolutionized shipping, while advances in computing
+                    and data analysis introduced new possibilities for optimization and tracking.
                 </p>
             </section>
         </div>
@@ -210,9 +227,19 @@
             </section>
         </div>
 
-        <footer>
-            <p>&copy; 2025 Logistics Major — Designed for academic excellence and timeless efficiency.</p>
+        <footer class="site-footer" role="contentinfo">
+            <div class="container">
+                <p>© <span id="year"></span> All rights reserved.</p>
+                <p>Information on this page was compiled from <a href="https://www.wikipedia.org"
+                        target="_blank">Wikipedia</a> and refined with the assistance of <a
+                        href="https://chat.openai.com" target="_blank">ChatGPT</a>.</p>
+
+            </div>
         </footer>
+
+        <script>
+            document.getElementById('year').textContent = new Date().getFullYear();
+        </script>
     </main>
 
     <script src="app.js"></script>
