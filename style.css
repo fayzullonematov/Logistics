@@ -199,6 +199,12 @@ footer {
   border-top: 1px solid rgba(212, 175, 55, 0.2);
 }
 
+
+.site-footer a {
+  color: #4ff78f;
+  text-decoration: none;
+}
+
 /* === Animation === */
 @keyframes fadeIn {
   from { opacity: 0; transform: translateY(20px); }
